@@ -1,4 +1,4 @@
-package jp-kafka
+package jpkafka
 
 import (
     "context"
