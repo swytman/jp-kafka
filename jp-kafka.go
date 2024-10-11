@@ -17,7 +17,6 @@ type KafkaWriter struct {
 
 type KafkaReader struct {
 	Client *kgo.Client
-	Topic  string
 }
 
 // NewKafkaWriter creates a new KafkaWriter using host and port parameters
