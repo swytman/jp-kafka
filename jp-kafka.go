@@ -86,7 +86,7 @@ func NewKafkaReader(topic string) *KafkaReader {
 	}
 
 	return &KafkaReader{
-		Client: client
+		Client: client,
 	}
 }
 
