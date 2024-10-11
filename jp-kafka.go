@@ -86,7 +86,9 @@ func NewKafkaReader(topic string) *KafkaReader {
 		log.Fatalf("Failed to create Kafka client: %v", err)
 	}
 
-	return &KafkaReader{Client: client,}
+	return &KafkaReader{
+	    Client: client,
+    }
 }
 
 // ReadMessages fetches messages from Kafka and commits manually.
